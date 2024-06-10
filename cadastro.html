@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        function mostrarMensagem() {
+            const login = document.getElementById('login').value;
+            const senha = document.getElementById('senha').value;
+            const mensagem = document.getElementById('mensagem');
+            mensagem.innerText = `Seu login é ${login} e sua senha é ${senha}`;
+            }
+            </script>
+<style>
+    .input{
+        line-height: 1cm;
+        width: 10cm;
+    }
+
+    
+    
+</style>
+        </head>
+        <p><h2>Login</h2></p>
+        <input class="input" id="login" type='email' placeholder="Digite o login">
+        <p><h2>Senha</h2></p>
+        <input class="input" id = "senha" type="password" placeholder="Digite a senha">
+        
+        
+        
+</html>

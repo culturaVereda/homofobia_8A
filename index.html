@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    
+        <title>Homofobia</title>
+        <style>
+            .input{
+                line-height: 1cm;
+                width: 10cm;
+            }
+            .div {
+                font-size: larger;
+                text-align: center;
+            }
+            .button{
+                font-style: italic;
+                width: 3cm;
+                height: 1cm;
+                font-size: medium;
+            }
+            .backgroundcolor{
+                background-color: cyan;
+            }
+        </style>
+        <script>
+            function mostrarMensagem() {
+                const login = document.getElementById('login').value;
+                const senha = document.getElementById('senha').value;
+                const mensagem = document.getElementById('mensagem');
+                mensagem.innerText = `Seu login é ${login} e sua senha é ${senha}`;
+            }
+        </script>
+    </head>
+    <body style="background-color :cyan;">
+
+    <div class='div'>
+    
+        <p><h2>Login</h2></p>
+        <input class="input" id="login" type='email' placeholder="Digite o login">
+        <p><h2>Senha</h2></p>
+        <input class="input" id = "senha" type="password" placeholder="Digite a senha">
+        <br>
+        <h2><button class="button">Entrar</button></h2>
+        <p><a href="Cadastre-se.html">Cadastre-se</a></p>
+        <br><br>
+        <p><a href="Page 2.html">Avançar</a></p>
+    </div>
+    </body>
+</html>
